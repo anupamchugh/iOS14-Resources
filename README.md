@@ -1,7 +1,7 @@
 # iOS 14 Resources
 
 ## SwiftUI
-* [SwiftUI Matched Geometry Effect](https://medium.com/better-programming/swiftuis-matchgeometryeffect-in-ios-14-ab701b2c99c3?source=friends_link&sk=04262ebfa8cd8324385710ac8725b855) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/SwiftUIMatchedGeometryEffect)
+* [SwiftUI Matched Geometry Effect With Grids](https://medium.com/better-programming/swiftuis-matchgeometryeffect-in-ios-14-ab701b2c99c3?source=friends_link&sk=04262ebfa8cd8324385710ac8725b855) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/SwiftUIMatchedGeometryEffect)
 * [SwiftUI WidgetKit Static Configuration](https://medium.com/better-programming/introducing-ios-14-widgetkit-with-swiftui-a9cc473caa24?source=friends_link&sk=1784eafe9cb70a34d9b04a14942e82e7) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/iOS14WidgetKitStaticConfiguration)
 
 ## UIKit

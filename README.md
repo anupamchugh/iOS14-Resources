@@ -14,7 +14,7 @@ Here's a list of source codes with related articles exploring the latest introdu
 * [Vision Contour Detection](https://heartbeat.fritz.ai/new-in-ios-14-vision-contour-detection-68fd5849816e) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/iOS14VisionContourDetection)
 
 ## CoreLocation
-* iOS 14 CoreLocation With SwiftUI | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/iOS14SwiftUICoreLocation)
+* [iOS 14 CoreLocation With SwiftUI](https://medium.com/better-programming/handling-location-permissions-in-ios-14-2cdd411d3cca?source=friends_link&sk=24f62858903b4d41378812994ccde768) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/iOS14SwiftUICoreLocation)
 
 ## CoreImage
 * [CoreImage Color Difference](https://towardsdatascience.com/image-difference-using-computer-vision-in-ios-14-7753b8d61e82) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/CoreImageAbsoluteColorDiff)

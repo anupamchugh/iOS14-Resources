@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E42A57124F50BD40079447E /* trump.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E42A57024F50BD40079447E /* trump.mp4 */; };
+		1EC32EED24F4F00400B05BFC /* SwiftUIVideoPlayerCoreImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC32EEC24F4F00400B05BFC /* SwiftUIVideoPlayerCoreImageApp.swift */; };
+		1EC32EEF24F4F00400B05BFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC32EEE24F4F00400B05BFC /* ContentView.swift */; };
+		1EC32EF124F4F00500B05BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC32EF024F4F00500B05BFC /* Assets.xcassets */; };
+		1EC32EF424F4F00500B05BFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EC32EF324F4F00500B05BFC /* Preview Assets.xcassets */; };
+		1EC32EFD24F4F31D00B05BFC /* DisplayLink in Frameworks */ = {isa = PBXBuildFile; productRef = 1EC32EFC24F4F31D00B05BFC /* DisplayLink */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E42A57024F50BD40079447E /* trump.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trump.mp4; sourceTree = "<group>"; };
+		1EC32EE924F4F00400B05BFC /* SwiftUIVideoPlayerCoreImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIVideoPlayerCoreImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC32EEC24F4F00400B05BFC /* SwiftUIVideoPlayerCoreImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVideoPlayerCoreImageApp.swift; sourceTree = "<group>"; };
+		1EC32EEE24F4F00400B05BFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EC32EF024F4F00500B05BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EC32EF324F4F00500B05BFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EC32EF524F4F00500B05BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC32EE624F4F00400B05BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC32EFD24F4F31D00B05BFC /* DisplayLink in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EC32EE024F4F00400B05BFC = {
+			isa = PBXGroup;
+			children = (
+				1EC32EEB24F4F00400B05BFC /* SwiftUIVideoPlayerCoreImage */,
+				1EC32EEA24F4F00400B05BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EC32EEA24F4F00400B05BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EC32EE924F4F00400B05BFC /* SwiftUIVideoPlayerCoreImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EC32EEB24F4F00400B05BFC /* SwiftUIVideoPlayerCoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				1E42A57024F50BD40079447E /* trump.mp4 */,
+				1EC32EEC24F4F00400B05BFC /* SwiftUIVideoPlayerCoreImageApp.swift */,
+				1EC32EEE24F4F00400B05BFC /* ContentView.swift */,
+				1EC32EF024F4F00500B05BFC /* Assets.xcassets */,
+				1EC32EF524F4F00500B05BFC /* Info.plist */,
+				1EC32EF224F4F00500B05BFC /* Preview Content */,
+			);
+			path = SwiftUIVideoPlayerCoreImage;
+			sourceTree = "<group>";
+		};
+		1EC32EF224F4F00500B05BFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EC32EF324F4F00500B05BFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EC32EE824F4F00400B05BFC /* SwiftUIVideoPlayerCoreImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC32EF824F4F00500B05BFC /* Build configuration list for PBXNativeTarget "SwiftUIVideoPlayerCoreImage" */;
+			buildPhases = (
+				1EC32EE524F4F00400B05BFC /* Sources */,
+				1EC32EE624F4F00400B05BFC /* Frameworks */,
+				1EC32EE724F4F00400B05BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIVideoPlayerCoreImage;
+			packageProductDependencies = (
+				1EC32EFC24F4F31D00B05BFC /* DisplayLink */,
+			);
+			productName = SwiftUIVideoPlayerCoreImage;
+			productReference = 1EC32EE924F4F00400B05BFC /* SwiftUIVideoPlayerCoreImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EC32EE124F4F00400B05BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1EC32EE824F4F00400B05BFC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 1EC32EE424F4F00400B05BFC /* Build configuration list for PBXProject "SwiftUIVideoPlayerCoreImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EC32EE024F4F00400B05BFC;
+			packageReferences = (
+				1EC32EFB24F4F31D00B05BFC /* XCRemoteSwiftPackageReference "DisplayLink" */,
+			);
+			productRefGroup = 1EC32EEA24F4F00400B05BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EC32EE824F4F00400B05BFC /* SwiftUIVideoPlayerCoreImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EC32EE724F4F00400B05BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC32EF424F4F00500B05BFC /* Preview Assets.xcassets in Resources */,
+				1EC32EF124F4F00500B05BFC /* Assets.xcassets in Resources */,
+				1E42A57124F50BD40079447E /* trump.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC32EE524F4F00400B05BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC32EEF24F4F00400B05BFC /* ContentView.swift in Sources */,
+				1EC32EED24F4F00400B05BFC /* SwiftUIVideoPlayerCoreImageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EC32EF624F4F00500B05BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EC32EF724F4F00500B05BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EC32EF924F4F00500B05BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIVideoPlayerCoreImage/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7392R2LCV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIVideoPlayerCoreImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iowncode.com.SwiftUIVideoPlayerCoreImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EC32EFA24F4F00500B05BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIVideoPlayerCoreImage/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7392R2LCV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIVideoPlayerCoreImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iowncode.com.SwiftUIVideoPlayerCoreImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC32EE424F4F00400B05BFC /* Build configuration list for PBXProject "SwiftUIVideoPlayerCoreImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC32EF624F4F00500B05BFC /* Debug */,
+				1EC32EF724F4F00500B05BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EC32EF824F4F00500B05BFC /* Build configuration list for PBXNativeTarget "SwiftUIVideoPlayerCoreImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC32EF924F4F00500B05BFC /* Debug */,
+				1EC32EFA24F4F00500B05BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EC32EFB24F4F31D00B05BFC /* XCRemoteSwiftPackageReference "DisplayLink" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timdonnelly/DisplayLink";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EC32EFC24F4F31D00B05BFC /* DisplayLink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EC32EFB24F4F31D00B05BFC /* XCRemoteSwiftPackageReference "DisplayLink" */;
+			productName = DisplayLink;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1EC32EE124F4F00400B05BFC /* Project object */;
+}

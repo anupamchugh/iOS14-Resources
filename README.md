@@ -10,7 +10,7 @@ Here's a list of source codes with related articles exploring the latest introdu
 * [iOS 14 UICollectionView](https://medium.com/better-programming/whats-new-in-ios-14s-uicollectionview-3c02b63f7a0f) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/iOSUICollectionView)
 
 ## CreateML and CoreML
-* [Real-time Style Transfer On A Live Camera Feed](https://github.com/anupamchugh/iOS14-Resources/tree/master/CreateMLVideoStyleTransfer)
+* [Real-time Style Transfer On A Live Camera Feed](https://heartbeat.fritz.ai/train-and-run-a-create-ml-style-transfer-model-in-an-ios-camera-application-84aab3b85458) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/CreateMLVideoStyleTransfer)
 
 
 ## Vision

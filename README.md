@@ -16,6 +16,7 @@ Here's a list of source codes with related articles exploring the latest introdu
 ## Vision
 * [Improvements in Vision framework for iOS 14](https://heartbeat.fritz.ai/whats-new-in-the-vision-framework-in-ios-14-73d22a942ba5)
 * [Vision Contour Detection](https://heartbeat.fritz.ai/new-in-ios-14-vision-contour-detection-68fd5849816e) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/iOS14VisionContourDetection)
+* [Vision Hand Pose Estimation](https://heartbeat.fritz.ai/swipeless-tinder-using-ios-14-vision-hand-pose-estimation-64e5f00ce45c) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/iOS14VisionHandPoseSwipe)
 
 ## CoreLocation
 * [iOS 14 CoreLocation With SwiftUI](https://medium.com/better-programming/handling-location-permissions-in-ios-14-2cdd411d3cca?source=friends_link&sk=24f62858903b4d41378812994ccde768) | [Code](https://github.com/anupamchugh/iOS14-Resources/tree/master/iOS14SwiftUICoreLocation)
